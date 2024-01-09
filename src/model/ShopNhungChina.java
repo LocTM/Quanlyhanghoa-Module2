@@ -1,3 +1,5 @@
+package model;
+
 import java.time.LocalDate;
 
 public class ShopNhungChina {
@@ -31,6 +33,19 @@ public class ShopNhungChina {
     public LocalDate getManufacturingDate() {
         return manufacturingDate;
     }
+
+    @Override
+    public String toString() {
+        return "ShopNhungChina{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", cost='" + cost + '\'' +
+                ", manufacturingDate=" + manufacturingDate +
+                '}';
+    }
+
+
+
 }
 
 
