@@ -15,6 +15,22 @@ public class ShopNhungChina {
         this.cost = cost;
         this.manufacturingDate = manufacturingDate;
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getCost() {
+        return cost;
+    }
+
+    public LocalDate getManufacturingDate() {
+        return manufacturingDate;
+    }
 }
 
 
